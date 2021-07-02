@@ -45,17 +45,6 @@ export class PelotonToGarmin extends React.Component<
     public state: PelotonToGarminState = {
         rememberMyCredentials: false,
         requestInFlight: false,
-        result: {
-            // result: [{
-            //     activityDate: '2021-07-01',
-            //     title: 'title',
-            //     description: 'description',
-            //     pelotonLink: 'https://foo',
-            //     garminLink: 'https://foo',
-            //     wasCreated: true
-            // }],
-            error: 'There was an error.',
-        },
     }
 
     public componentDidMount = (): void => {

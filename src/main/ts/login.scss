@@ -1,0 +1,20 @@
+@import '~@blueprintjs/core/lib/css/blueprint.css';
+@import '~@blueprintjs/core/lib/scss/variables';
+@import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
+
+.login {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 100%;
+
+    > div {
+        width: 100%;
+        max-width: 700px;
+        padding: $pt-grid-size;
+        text-align: center;
+    }
+}

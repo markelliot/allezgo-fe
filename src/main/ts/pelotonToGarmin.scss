@@ -1,0 +1,59 @@
+@use "sass:math";
+
+@import '~@blueprintjs/core/lib/css/blueprint.css';
+@import '~@blueprintjs/core/lib/scss/variables';
+@import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
+
+.main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 100%;
+    padding: $pt-grid-size;
+
+    > div {
+        width: 100%;
+        max-width: 700px;
+        text-align: left;
+    }
+
+    h5 {
+        padding-top: $pt-grid-size;
+    }
+
+    .note {
+        font-size: $pt-font-size-small;
+        padding-bottom: $pt-grid-size;
+    }
+
+    .error {
+        padding: $pt-grid-size;
+    }
+
+    .syncResults {
+        display: flex;
+        align-items: center;
+        align-content: stretch;
+
+        .description {
+            flex-basis: 60%;
+        }
+
+        > div {
+            a {
+                display: block;
+                text-decoration: underline;
+            }
+            strong {
+                font-weight: bold;
+                display: block;
+            }
+            vertical-align: middle;
+            padding: $pt-grid-size;
+            flex-basis: 20%;
+        }
+    }
+}

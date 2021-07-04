@@ -33,6 +33,7 @@ interface PelotonToGarminState {
     garminEmail?: string
     garminPassword?: string
     garminPelotonGearName?: string
+    todayOnly: boolean
     rememberMyCredentials: boolean
     result?: PelotonToGarminSyncResult
     requestInFlight: boolean
@@ -43,6 +44,7 @@ export class PelotonToGarmin extends React.Component<
     PelotonToGarminState
 > {
     public state: PelotonToGarminState = {
+        todayOnly: false,
         rememberMyCredentials: false,
         requestInFlight: false,
     }
@@ -65,6 +67,7 @@ export class PelotonToGarmin extends React.Component<
                     garminEmail: this.state.garminEmail,
                     garminPassword: this.state.garminPassword,
                     garminPelotonGearName: this.state.garminPelotonGearName,
+                    todayOnly: this.state.todayOnly,
                     rememberMyCredentials: true,
                 }),
             )
@@ -147,6 +150,11 @@ export class PelotonToGarmin extends React.Component<
                         />
                     </Label>
                     <Checkbox
+                        checked={this.state.todayOnly}
+                        label="Only Synchronize Today's Rides"
+                        onChange={this.toggleTodayOnly}
+                    />
+                    <Checkbox
                         checked={this.state.rememberMyCredentials}
                         label="Remember my credentials"
                         onChange={this.toggleRememberMyCredentials}
@@ -200,11 +208,22 @@ export class PelotonToGarmin extends React.Component<
         )
     }
 
+    private numDaysToSync = () => (this.state.todayOnly ? 1 : 30)
+
     private formatResults = (result: PelotonToGarminSyncResult) => {
         if (result.result) {
             return (
                 <div id="result">
-                    <H5>Your rides over the last 30 days</H5>
+                    <H5>
+                        Your rides over the last {this.numDaysToSync()} days
+                    </H5>
+                    {result.result.length == 0 ? (
+                        <div className="syncResults">
+                            No Peloton rides found during this period.
+                        </div>
+                    ) : (
+                        <></>
+                    )}
                     {result.result.map((sr) => (
                         <div className="syncResults">
                             <div className="date">{sr.activityDate}</div>
@@ -281,6 +300,13 @@ export class PelotonToGarmin extends React.Component<
             })
         }
 
+    private toggleTodayOnly: ChangeEventHandler<HTMLInputElement> = () => {
+        this.setState({
+            ...this.state,
+            todayOnly: !this.state.todayOnly,
+        })
+    }
+
     private toggleRememberMyCredentials: ChangeEventHandler<HTMLInputElement> =
         () => {
             this.setState({
@@ -301,6 +327,7 @@ export class PelotonToGarmin extends React.Component<
                     garminEmail: this.state.garminEmail,
                     garminPassword: this.state.garminPassword,
                     garminPelotonGearName: this.state.garminPelotonGearName,
+                    numDaysToSync: this.numDaysToSync(),
                 }),
             },
         )

@@ -11,6 +11,7 @@ import {
     ProgressBar,
 } from '@blueprintjs/core'
 import React, { ChangeEventHandler, ReactNode } from 'react'
+import ReactGA from 'react-ga'
 import './pelotonToGarmin.scss'
 
 interface SyncResult {
@@ -317,6 +318,10 @@ export class PelotonToGarmin extends React.Component<
 
     private submit = async () => {
         this.setState({ ...this.state, requestInFlight: true })
+        ReactGA.event({
+            category: 'User',
+            action: 'Sync Peloton to Garmin'
+          });
         const result = await fetch(
             'https://api.allezgo.io/api/synchronize/peloton-to-garmin',
             {

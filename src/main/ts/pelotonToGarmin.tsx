@@ -320,8 +320,8 @@ export class PelotonToGarmin extends React.Component<
         this.setState({ ...this.state, requestInFlight: true })
         ReactGA.event({
             category: 'User',
-            action: 'Sync Peloton to Garmin'
-          });
+            action: 'Sync Peloton to Garmin',
+        })
         const result = await fetch(
             'https://api.allezgo.io/api/synchronize/peloton-to-garmin',
             {

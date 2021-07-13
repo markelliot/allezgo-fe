@@ -3,11 +3,15 @@ import * as ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import './app.scss'
+import { Nav } from './nav'
 import { Login } from './login'
 import { PelotonToGarmin } from './pelotonToGarmin'
 
+
 // render root element
 ReactDOM.render(
+    <>
+    <Nav/>
     <Router>
         <Switch>
             <Route path="/peloton-to-garmin">
@@ -17,6 +21,7 @@ ReactDOM.render(
                 <Login />
             </Route>
         </Switch>
-    </Router>,
+    </Router>
+    </>,
     document.getElementById('root'),
 )

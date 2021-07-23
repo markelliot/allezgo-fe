@@ -97,14 +97,12 @@ export class PelotonToGarmin extends React.Component<
                 <div className="credentials">
                     <H5>Login Credentials</H5>
                     <div className="note">
-                        We do not store, log, or otherwise retain your
-                        credentials in any way on our servers, but your
-                        credentials will be passed to our system in order to
-                        access and synchronize your data. By using this system,
-                        you are explicitly agreeing that your credentials may be
-                        used to read your Peloton data, read your Garmin Connect
-                        activity data, and write data to Garmin Connect on your
-                        behalf.
+                        We do not store, log or otherwise record your password.
+                        We may log your email for debugging.
+                        By using this system, you are explicitly agreeing that
+                        your credentials may be used to read your Peloton data,
+                        read your Garmin Connect activity data, and write data
+                        to Garmin Connect on your behalf.
                     </div>
                     <Label>
                         Peloton Email Address

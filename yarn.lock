@@ -773,6 +773,7 @@ __metadata:
   dependencies:
     "@blueprintjs/core": ^3.47.0
     "@blueprintjs/datetime": ^3.23.6
+    "@blueprintjs/icons": ^3.27.0
     "@types/react": ^17.0.16
     "@types/react-dom": ^17.0.9
     "@types/react-router-dom": ^5.1.8
@@ -786,6 +787,7 @@ __metadata:
     html-webpack-plugin: ^5.3.2
     prettier: ^2.3.2
     process: ^0.11.10
+    prop-types: ^15.7.2
     react: ^17.0.2
     react-dom: ^17.0.2
     react-ga: ^3.3.0
@@ -4914,7 +4916,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.6.1, prop-types@npm:^15.6.2":
+"prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:

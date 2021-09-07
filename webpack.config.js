@@ -41,9 +41,11 @@ module.exports = {
         }),
     ],
     devServer: {
-        contentBase: "./build/assets",
-        compress: true,
+        static: {
+            directory: "./build/assets",
+        },
         historyApiFallback: true,
+        compress: true,
         port: 8080,
     },
 };

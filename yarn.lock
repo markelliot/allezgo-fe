@@ -790,7 +790,7 @@ __metadata:
     css-loader: ^6.2.0
     eslint: ^7.32.0
     eslint-config-prettier: ^8.3.0
-    eslint-plugin-prettier: ^3.4.0
+    eslint-plugin-prettier: ^4.0.0
     html-webpack-plugin: ^5.3.2
     prettier: ^2.3.2
     process: ^0.11.10
@@ -799,7 +799,7 @@ __metadata:
     react-dom: ^17.0.2
     react-ga: ^3.3.0
     react-router-dom: ^5.3.0
-    sass: ^1.37.5
+    sass: ^1.39.0
     sass-loader: ^12.1.0
     style-loader: ^3.2.1
     ts-loader: ^9.2.5
@@ -1810,18 +1810,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^3.4.0":
-  version: 3.4.0
-  resolution: "eslint-plugin-prettier@npm:3.4.0"
+"eslint-plugin-prettier@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "eslint-plugin-prettier@npm:4.0.0"
   dependencies:
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
-    eslint: ">=5.0.0"
-    prettier: ">=1.13.0"
+    eslint: ">=7.28.0"
+    prettier: ">=2.0.0"
   peerDependenciesMeta:
     eslint-config-prettier:
       optional: true
-  checksum: 30a07e8d12637d2988e371f6a20ff4c86fd7fdc3596d1d18d62c0367804f38e06a65052d0281234aeb2552e4d1908dcb2de20543413e038251a2717a46400a9d
+  checksum: 03d69177a3c21fa2229c7e427ce604429f0b20ab7f411e2e824912f572a207c7f5a41fd1f0a95b9b8afe121e291c1b1f1dc1d44c7aad4b0837487f9c19f5210d
   languageName: node
   linkType: hard
 
@@ -4474,14 +4474,14 @@ resolve@^1.9.0:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.37.5":
-  version: 1.37.5
-  resolution: "sass@npm:1.37.5"
+"sass@npm:^1.39.0":
+  version: 1.39.0
+  resolution: "sass@npm:1.39.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
   bin:
     sass: sass.js
-  checksum: 301925e66ea8ac402fedc8e9b938fc000b8ae683ffeae474ed05bf34ee8a4b7a2e1a42a37a1bf2fbb7a5a9e88df5c0175bdbb3866cedc3bedde41a4270514d75
+  checksum: 390751da385af1a46775876a44748e1401e9b1664ddeda6841ffe76dc1c14d1949a40b2c5b31beca7a494da11e8283ffcef55c0e581d1979c72177b8721684c2
   languageName: node
   linkType: hard
 

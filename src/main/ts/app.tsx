@@ -10,7 +10,10 @@ ReactDOM.render(
     <>
         <BrowserRouter>
             <Routes>
-                <Route path="/peloton-to-garmin" element={<PelotonToGarmin />} />
+                <Route
+                    path="/peloton-to-garmin"
+                    element={<PelotonToGarmin />}
+                />
                 <Route path="/" element={<Login />} />
             </Routes>
         </BrowserRouter>

@@ -23,42 +23,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/colors@npm:^4.0.0-alpha.3":
-  version: 4.2.1
-  resolution: "@blueprintjs/colors@npm:4.2.1"
-  dependencies:
-    tslib: ~2.5.0
-  checksum: d8073d0146f1d9b99e1d9dbbe4ab5b57d41c41f7a70da287b4dd6f02781df52b772e66348b79a3a6c9a7d9ed311d93934d2a4413da04ebfd215cfae143bed446
-  languageName: node
-  linkType: hard
-
-"@blueprintjs/core@npm:^3.51.3":
-  version: 3.54.0
-  resolution: "@blueprintjs/core@npm:3.54.0"
-  dependencies:
-    "@blueprintjs/colors": ^4.0.0-alpha.3
-    "@blueprintjs/icons": ^3.33.0
-    "@juggle/resize-observer": ^3.3.1
-    "@types/dom4": ^2.0.1
-    classnames: ^2.2
-    dom4: ^2.1.5
-    normalize.css: ^8.0.1
-    popper.js: ^1.16.1
-    react-lifecycles-compat: ^3.0.4
-    react-popper: ^1.3.7
-    react-transition-group: ^2.9.0
-    tslib: ~2.3.1
-  peerDependencies:
-    react: ^15.3.0 || 16 || 17
-    react-dom: ^15.3.0 || 16 || 17
-  bin:
-    upgrade-blueprint-2.0.0-rename: scripts/upgrade-blueprint-2.0.0-rename.sh
-    upgrade-blueprint-3.0.0-rename: scripts/upgrade-blueprint-3.0.0-rename.sh
-  checksum: 97b8811bfc32284bb36e62a44210e84d5abe164ef553670866e0628718db4a98c79b9665f73014b1474f534a3d3260e94af274e669fb0ebfeb323305a81b5375
-  languageName: node
-  linkType: hard
-
-"@blueprintjs/core@npm:^3.54.0":
+"@blueprintjs/core@npm:^3.51.3, @blueprintjs/core@npm:^3.54.0":
   version: 3.54.0
   resolution: "@blueprintjs/core@npm:3.54.0"
   dependencies:
@@ -100,17 +65,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/icons@npm:^3.31.0":
-  version: 3.31.0
-  resolution: "@blueprintjs/icons@npm:3.31.0"
-  dependencies:
-    classnames: ^2.2
-    tslib: ~1.13.0
-  checksum: 4ec04282140661daf293dc495b35a60ad37549371f2bd56fa18755019f09db44232a3e88bf49a579f7afd55dcba060798518c3f95555a820acbc5620ace450a5
-  languageName: node
-  linkType: hard
-
-"@blueprintjs/icons@npm:^3.33.0":
+"@blueprintjs/icons@npm:^3.31.0, @blueprintjs/icons@npm:^3.33.0":
   version: 3.33.0
   resolution: "@blueprintjs/icons@npm:3.33.0"
   dependencies:
@@ -5283,13 +5238,6 @@ __metadata:
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
-  languageName: node
-  linkType: hard
-
-"tslib@npm:~1.13.0":
-  version: 1.13.0
-  resolution: "tslib@npm:1.13.0"
-  checksum: 50e9327361f94f328c0715582a7f725f69838ab3c2559d143643c5367262fe14552768ba8cfc65bc7dc924a619aea599b3a28b6653458cdca77bbebaf9bc8df4
   languageName: node
   linkType: hard
 

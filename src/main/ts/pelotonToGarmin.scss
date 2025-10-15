@@ -1,7 +1,7 @@
 @use 'sass:math';
+@use '~@blueprintjs/core/lib/scss/variables' as *;
 
 @import '~@blueprintjs/core/lib/css/blueprint.css';
-@import '~@blueprintjs/core/lib/scss/variables';
 @import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
 
 .main {

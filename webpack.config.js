@@ -12,6 +12,9 @@ module.exports = {
     resolve: {
         extensions: [".ts", ".tsx", ".js", ".scss"],
         modules: ["node_modules"],
+        fallback: {
+            "process/browser": require.resolve("process/browser.js"),
+        },
     },
     module: {
         rules: [

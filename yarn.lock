@@ -21,43 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/colors@npm:^5.1.9":
-  version: 5.1.9
-  resolution: "@blueprintjs/colors@npm:5.1.9"
-  dependencies:
-    tslib: "npm:~2.6.2"
-  checksum: 10c0/12000cffbaa478286328dc897db806526bea928dbcc14feef9bdd786b302d3dd5c392d7e4eed580b3a98eae7ab3a38fbd1fb89f5f14cc62ba4fbe6a9de09665c
-  languageName: node
-  linkType: hard
-
-"@blueprintjs/core@npm:^6.0.0":
-  version: 6.3.2
-  resolution: "@blueprintjs/core@npm:6.3.2"
-  dependencies:
-    "@blueprintjs/colors": "npm:^5.1.9"
-    "@blueprintjs/icons": "npm:^6.2.0"
-    "@popperjs/core": "npm:^2.11.8"
-    classnames: "npm:^2.3.1"
-    normalize.css: "npm:^8.0.1"
-    react-popper: "npm:^2.3.0"
-    react-transition-group: "npm:^4.4.5"
-    tslib: "npm:~2.6.2"
-    use-sync-external-store: "npm:^1.2.0"
-  peerDependencies:
-    "@types/react": 18
-    react: 18
-    react-dom: 18
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  bin:
-    upgrade-blueprint-2.0.0-rename: scripts/upgrade-blueprint-2.0.0-rename.sh
-    upgrade-blueprint-3.0.0-rename: scripts/upgrade-blueprint-3.0.0-rename.sh
-  checksum: 10c0/94c051816284977f54230c35f9f20a07c1751852cce80b75ef54addedb673f9806891f42833c7f0d92918775f1157ae633994447356c68699cafbe41c1c808a9
-  languageName: node
-  linkType: hard
-
-"@blueprintjs/core@npm:^6.3.4":
+"@blueprintjs/core@npm:^6.0.0, @blueprintjs/core@npm:^6.3.4":
   version: 6.3.4
   resolution: "@blueprintjs/core@npm:6.3.4"
   dependencies:
@@ -108,25 +72,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/icons@npm:^6.0.0, @blueprintjs/icons@npm:^6.2.0":
-  version: 6.3.1
-  resolution: "@blueprintjs/icons@npm:6.3.1"
-  dependencies:
-    change-case: "npm:^4.1.2"
-    classnames: "npm:^2.3.1"
-    tslib: "npm:~2.6.2"
-  peerDependencies:
-    "@types/react": 18
-    react: 18
-    react-dom: 18
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  checksum: 10c0/f1cf979010d7556561f29c00558179337d7e08fe2d35b784351d548f0f9c6ca6d10a8b0c5bd625f40522e7905e347fd419c267c16b7419f947ae20a38e398074
-  languageName: node
-  linkType: hard
-
-"@blueprintjs/icons@npm:^6.3.1":
+"@blueprintjs/icons@npm:^6.0.0, @blueprintjs/icons@npm:^6.3.1":
   version: 6.3.1
   resolution: "@blueprintjs/icons@npm:6.3.1"
   dependencies:

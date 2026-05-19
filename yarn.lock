@@ -12,15 +12,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/colors@npm:^5.1.15":
-  version: 5.1.15
-  resolution: "@blueprintjs/colors@npm:5.1.15"
-  dependencies:
-    tslib: "npm:~2.6.2"
-  checksum: 10c0/37f3c7e51151d7209cf4b9e0d9dca559197f0e82afb3fa8b52e9b0cefa262ef0194f206db2dbb261c7656245c629496294c4908e50083100ec60da78845635d7
-  languageName: node
-  linkType: hard
-
 "@blueprintjs/colors@npm:^5.1.16":
   version: 5.1.16
   resolution: "@blueprintjs/colors@npm:5.1.16"
@@ -30,35 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/core@npm:^6.0.0":
-  version: 6.10.0
-  resolution: "@blueprintjs/core@npm:6.10.0"
-  dependencies:
-    "@blueprintjs/colors": "npm:^5.1.15"
-    "@blueprintjs/icons": "npm:^6.7.0"
-    "@floating-ui/react": "npm:^0.27.13"
-    "@popperjs/core": "npm:^2.11.8"
-    classnames: "npm:^2.3.1"
-    normalize.css: "npm:^8.0.1"
-    react-popper: "npm:^2.3.0"
-    react-transition-group: "npm:^4.4.5"
-    tslib: "npm:~2.6.2"
-    use-sync-external-store: "npm:^1.2.0"
-  peerDependencies:
-    "@types/react": 18
-    react: 18
-    react-dom: 18
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  bin:
-    upgrade-blueprint-2.0.0-rename: scripts/upgrade-blueprint-2.0.0-rename.sh
-    upgrade-blueprint-3.0.0-rename: scripts/upgrade-blueprint-3.0.0-rename.sh
-  checksum: 10c0/06f674dfcf6ec796092ba52098f4a61a6cdff387a41bd8e4f133d0df954faee5ef1567d5daa34fbd5c087bf1e4e5975d88e25496628e1507bbcc4d2c86a41183
-  languageName: node
-  linkType: hard
-
-"@blueprintjs/core@npm:^6.13.0":
+"@blueprintjs/core@npm:^6.0.0, @blueprintjs/core@npm:^6.13.0":
   version: 6.13.0
   resolution: "@blueprintjs/core@npm:6.13.0"
   dependencies:
@@ -109,7 +72,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/icons@npm:^6.0.0, @blueprintjs/icons@npm:^6.10.0, @blueprintjs/icons@npm:^6.7.0":
+"@blueprintjs/icons@npm:^6.0.0, @blueprintjs/icons@npm:^6.10.0":
   version: 6.10.0
   resolution: "@blueprintjs/icons@npm:6.10.0"
   dependencies:
@@ -5697,15 +5660,6 @@ __metadata:
   dependencies:
     punycode: "npm:^2.1.0"
   checksum: 10c0/4ef57b45aa820d7ac6496e9208559986c665e49447cb072744c13b66925a362d96dd5a46c4530a6b8e203e5db5fe849369444440cb22ecfc26c679359e5dfa3c
-  languageName: node
-  linkType: hard
-
-"use-sync-external-store@npm:^1.2.0":
-  version: 1.5.0
-  resolution: "use-sync-external-store@npm:1.5.0"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10c0/1b8663515c0be34fa653feb724fdcce3984037c78dd4a18f68b2c8be55cc1a1084c578d5b75f158d41b5ddffc2bf5600766d1af3c19c8e329bb20af2ec6f52f4
   languageName: node
   linkType: hard
 

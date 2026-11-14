@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/core@npm:^6.0.0, @blueprintjs/core@npm:^6.22.0":
+"@blueprintjs/core@npm:^6.0.0, @blueprintjs/core@npm:^6.23.0":
   version: 6.23.0
   resolution: "@blueprintjs/core@npm:6.23.0"
   dependencies:
@@ -49,12 +49,12 @@ __metadata:
   linkType: hard
 
 "@blueprintjs/datetime@npm:^6.0.0":
-  version: 6.3.1
-  resolution: "@blueprintjs/datetime@npm:6.3.1"
+  version: 6.3.2
+  resolution: "@blueprintjs/datetime@npm:6.3.2"
   dependencies:
-    "@blueprintjs/core": "npm:^6.22.0"
-    "@blueprintjs/icons": "npm:^6.15.0"
-    "@blueprintjs/select": "npm:^6.4.1"
+    "@blueprintjs/core": "npm:^6.23.0"
+    "@blueprintjs/icons": "npm:^6.16.0"
+    "@blueprintjs/select": "npm:^6.4.2"
     classnames: "npm:^2.3.1"
     date-fns: "npm:^2.28.0"
     date-fns-tz: "npm:^2.0.0"
@@ -68,11 +68,11 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/1cdda0a40670d120b42f1d999d5fb4ef775ddf65e38e58c500944221e667f7c98a78cd16142d0e2335cc84630f010d7c9447321ea8e5dce4b105e102a2b3e788
+  checksum: 10c0/3bae72bb8a545ba22f497913a587c0cb05481b453bfef54a71e547e4915ac936c135dc97f30fc60ccf9627fb8455b3aa43c226548e0164044fa69afb3beeecf4
   languageName: node
   linkType: hard
 
-"@blueprintjs/icons@npm:^6.0.0, @blueprintjs/icons@npm:^6.15.0":
+"@blueprintjs/icons@npm:^6.0.0":
   version: 6.15.0
   resolution: "@blueprintjs/icons@npm:6.15.0"
   dependencies:
@@ -108,13 +108,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/select@npm:^6.4.1":
-  version: 6.4.1
-  resolution: "@blueprintjs/select@npm:6.4.1"
+"@blueprintjs/select@npm:^6.4.2":
+  version: 6.4.2
+  resolution: "@blueprintjs/select@npm:6.4.2"
   dependencies:
     "@blueprintjs/colors": "npm:^5.1.16"
-    "@blueprintjs/core": "npm:^6.22.0"
-    "@blueprintjs/icons": "npm:^6.15.0"
+    "@blueprintjs/core": "npm:^6.23.0"
+    "@blueprintjs/icons": "npm:^6.16.0"
     classnames: "npm:^2.3.1"
     tslib: "npm:~2.6.2"
   peerDependencies:
@@ -124,7 +124,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/8c67698cab10459bff749150b3ac6f6501909e9cfece5e7ba15dcb9a3cb404ba1410cc7afb5694b671d26f0500bd621270b15f645e11cbff1b5a793ac3c7583c
+  checksum: 10c0/230fed19f08656143ff2a0f354fdeff723581ff23405aba96bc951ac1b2feebf3ff370e995061a4aa0a9ef200e63fc43e6fade32435517486dcc45fa9d97a93a
   languageName: node
   linkType: hard
 

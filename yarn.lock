@@ -22,8 +22,8 @@ __metadata:
   linkType: hard
 
 "@blueprintjs/core@npm:^6.0.0, @blueprintjs/core@npm:^6.23.1":
-  version: 6.23.1
-  resolution: "@blueprintjs/core@npm:6.23.1"
+  version: 6.23.2
+  resolution: "@blueprintjs/core@npm:6.23.2"
   dependencies:
     "@blueprintjs/colors": "npm:^5.1.16"
     "@blueprintjs/icons": "npm:^6.17.0"
@@ -44,7 +44,7 @@ __metadata:
   bin:
     upgrade-blueprint-2.0.0-rename: scripts/upgrade-blueprint-2.0.0-rename.sh
     upgrade-blueprint-3.0.0-rename: scripts/upgrade-blueprint-3.0.0-rename.sh
-  checksum: 10c0/33512ee1eb519da8fa5d2c932836b82ca47568d68a5753d735e88058eed1016795165ceaa584f56d745c6f73b9d5552e67120db2cea993d9cff04da21f2a0132
+  checksum: 10c0/475ae07f2684c8905a0c9feb5cb57ddd723113818ae1bef2af82bceb1d52dee35ce075087599e0d939e05187e17675e69bf7e46c790d44ffb5e0cec8ae6a1e12
   languageName: node
   linkType: hard
 
